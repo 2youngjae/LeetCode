@@ -18,6 +18,7 @@ public:
 	int d[30000];
 	int answer = 0;
 
+	//pivot 보다 왼쪽에서 가장큰 block을 찾아 계산
 	void findLeft(vector<int>& height, int pivot_idx) {
 		if (pivot_idx <= 0) return;
 
@@ -35,6 +36,7 @@ public:
 		findLeft(height, max_idx);
 	}
 
+	//pivot 보다 오른쪽에서 가장큰 block을 찾아 계산
 	void findRight(vector<int>& height, int pivot_idx) {
 		if (pivot_idx >= height.size() - 1) return;
 
