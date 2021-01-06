@@ -1,3 +1,7 @@
+/*
+시간복잡도 O(N)
+*/
+
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
