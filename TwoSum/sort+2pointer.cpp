@@ -1,6 +1,5 @@
 /*
 시간복잡도 O(NlogN)
-공간복잡도 O(1*N)
 
 1. input으로 넘어온 nums를 index와 함께 정렬한다.
 2. 2 pointer를 이용하여 target number를 찾는다.
