@@ -5,7 +5,7 @@
 위 조건을 이용하여 answer를 계산할 수 있다.
 */
 
-#include <map>
+#include <iostream>
 #include <vector>
 #include <cmath>
 using namespace std;
