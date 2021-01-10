@@ -1,6 +1,9 @@
 /*
 Approach 2
-시간복잡도 (NlogN)
+시간복잡도 (nlogn)
+공간복잡도 (3*n)
+Runtime: 28 ms, faster than 6.71% of C++ online submissions for Trapping Rain Water.
+Memory Usage: 16.1 MB, less than 7.21% of C++ online submissions for Trapping Rain Water.
 
 1번 접근방법에서 pivot을 기준으로 왼쪽 혹은 오른쪽에 대해 가장 큰 블록을 찾을때 매 타이밍마다 O(N)의 시간이 소요되어 결국 전체 코드의 시간복잡도가 O(N^2)이었는데,
 가장 큰 블록을 찾을때 우선순위큐를 사용하여 O(logN)의 시간이 소요되도록 구현하였다.
