@@ -1,5 +1,8 @@
 /*
 시간복잡도 O(n)
+공간복잡도 O(1)
+Runtime: 4 ms, faster than 98.86% of C++ online submissions for Trapping Rain Water.
+Memory Usage: 14.5 MB, less than 51.93% of C++ online submissions for Trapping Rain Water.
 
 DP를 이용하는 방법을 조금더 효율화시킨 방법이다.
 DP를 이용하여 문제를 풀때 i번째 자리에 TrappingRainWater를 계산하기 위해 모든 i번째자리에서 왼쪽 최대값과 오른쪽 최대값을 알기 위해
