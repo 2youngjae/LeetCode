@@ -1,5 +1,8 @@
 /*
 시간복잡도 O(n)
+공간복잡도 O(2*n)
+Runtime: 24 ms, faster than 8.08% of C++ online submissions for Trapping Rain Water.
+Memory Usage: 14.7 MB, less than 22.14% of C++ online submissions for Trapping Rain Water.
 
 어떤 특정한 지점 i에서 빗물이 얼마나 채워지는지 알수 있는 방법은 min(i의 왼쪽최대값, i의 오른쪽 최대값) - height[i] 이다.
 위 조건을 이용하여 answer를 계산할 수 있다.
