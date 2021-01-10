@@ -1,6 +1,9 @@
 /*
 Approach 1
-시간복잡도 O(n ^ 2)
+시간복잡도 O(n^2)
+공간복잡도 O(n)
+Runtime: 12 ms, faster than 47.35% of C++ online submissions for Trapping Rain Water.
+Memory Usage: 14.8 MB, less than 22.14% of C++ online submissions for Trapping Rain Water.
 
 풀이과정:
 1. 가장 높은 블록을 찾는다.
