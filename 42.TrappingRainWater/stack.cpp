@@ -1,5 +1,8 @@
 /*
 시간복잡도 O(n)
+공간복잡도 O(n)
+Runtime: 32 ms, faster than 6.02% of C++ online submissions for Trapping Rain Water.
+Memory Usage: 14.8 MB, less than 12.43% of C++ online submissions for Trapping Rain Water.
 
 1.스택에 블록을 넣는다.
 2.h[i] 가 h[s.top()] 보다 클때 h[i], h[s.top()], h[s.top()-1] (top 아래 블록) 3개를 비교하면 
@@ -18,7 +21,7 @@ public:
         int answer = 0;
 
         stack<int> s;
-        for (int i = 0; i < height.size(); i++) {
+        for (int i = 0; i < height.size(); ++i) {
             while (!s.empty() && height[i] > height[s.top()]) {
                 int top = s.top();
                 s.pop();
@@ -32,9 +35,3 @@ public:
         return answer;
     }
 };
-
-int main() {
-    vector<int> h = { 4,2,0,3,2,5 };
-    printf("%d\n", Solution().trap(h));
-    return 0;  
-}
