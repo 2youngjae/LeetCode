@@ -1,3 +1,8 @@
+/*
+Runtime: 4 ms, faster than 91.12% of C++ online submissions for Fizz Buzz.
+Memory Usage: 8 MB, less than 82.44% of C++ online submissions for Fizz Buzz.
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
