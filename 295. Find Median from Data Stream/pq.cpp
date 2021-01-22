@@ -4,8 +4,8 @@
  * Memory Usage: 46.8 MB, less than 96.67% of C++ online submissions for Find Median from Data Stream.
  * 
  * 시간복잡도 
- * addNum() -> O(logn)
- * findMedian() -> O(1)
+ * addNum() : O(logn)
+ * findMedian() : O(1)
  * 공간복잡도
  * O(2*n)
  *
