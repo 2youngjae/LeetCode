@@ -1,3 +1,17 @@
+/**
+ * @file map.cpp
+ * @author 2YoungJae (dldudwo10@naver.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-01-26
+ * 
+ * Runtime: 20 ms, faster than 91.20% of C++ online submissions for Majority Element.
+ * Memory Usage: 19.6 MB, less than 95.14% of C++ online submissions for Majority Element.
+ * 
+ */
+
+
+
 #include <iostream>
 #include <vector>
 #include <map>
