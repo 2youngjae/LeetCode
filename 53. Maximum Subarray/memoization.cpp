@@ -1,3 +1,19 @@
+/**
+ * @file memoization.cpp
+ * @author 2YoungJae (dldudwo10@naver.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-02-04
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ * Runtime: 12 ms, faster than 54.15% of C++ online submissions for Maximum Subarray.
+ * Memory Usage: 13.1 MB, less than 80.66% of C++ online submissions for Maximum Subarray.
+ * 
+ * Time complexity : O(n)
+ * Space complexity : O(n)
+ */
+
 #include <iostream>
 #include <vector>
 #include <cmath>
