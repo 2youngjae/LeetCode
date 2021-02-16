@@ -1,3 +1,16 @@
+/**
+ * @file simple.cpp
+ * @author 2YoungJae (dldudwo10@naver.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-02-02
+ * @copyright Copyright (c) 2021
+ * 
+ * Runtime: 168 ms, faster than 9.69% of C++ online submissions for Best Time to Buy and Sell Stock.
+ * Memory Usage: 93.2 MB, less than 31.61% of C++ online submissions for Best Time to Buy and Sell Stock.
+ * 
+ */
+
 #include <iostream>
 #include <vector>
 #include <cmath>
