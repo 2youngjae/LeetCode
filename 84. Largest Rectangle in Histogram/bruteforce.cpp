@@ -1,3 +1,19 @@
+/**
+ * @file bruteforce.cpp
+ * @author 2YoungJae (dldudwo10@naver.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-03-07
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ * Runtime: 120 ms, faster than 37.77% of C++ online submissions for Largest Rectangle in Histogram.
+ * Memory Usage: 61.6 MB, less than 38.37% of C++ online submissions for Largest Rectangle in Histogram.
+ * 
+ * Time complexity : O(n^2)
+ * Space complexity : O(n)
+ */
+
 #include <cmath>
 #include <iostream>
 #include <vector>
@@ -37,7 +53,6 @@ class Solution {
         for (int i = 0; i < heights.size(); i++) {
             if (!check[i]) {
                 answer = max(answer, search(heights, i) * heights[i]);
-                printf("answer = %d \n" , answer);
             }
         }
         return answer;
