@@ -1,3 +1,19 @@
+/**
+ * @file recursive.cpp
+ * @author 2YoungJae (dldudwo10@naver.com)
+ * @brief
+ * @version 0.1
+ * @date 2021-05-23
+ * @copyright Copyright (c) 2021
+ *
+ * Runtime: 12 ms, faster than 56.83% of C++ online submissions for Validate
+ * Binary Search Tree. Memory Usage: 21.7 MB, less than 42.01% of C++ online
+ * submissions for Validate Binary Search Tree.
+ *
+ * Time complexity : O(n) - n is a number of nodes
+ *
+ */
+
 #include <climits>
 #include <iostream>
 using namespace std;
